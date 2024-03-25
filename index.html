@@ -8,18 +8,22 @@
  </head>
 
  <body>
+   <header>
+      <h1>Number Guessing Game</h1>
+   </header>
+   <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+   
+   <label for="guessField">Enter a guess: </label>
+   <input type="number" id="guessField" class="guessField" />
+   <input type="submit" value="Submit guess" class="guessSubmit" />
 
-   <h1 id="a">Md. Mahfuzur Rahman</h1>
-   <p>I am <em>glad</em> you weren't <em>late</em>.</p> 
-   <p>This liquid is <strong>highly toxic</strong>.</p>
-
-<p>I am counting on you. <strong>Do not</strong> be late!</p>
+   <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+    <br>
+    <p>[This a practical implication of binary search problem] </p>
    <script src="main.js"></script>
-   <p>
-      The quote element — <code>&lt;q&gt;</code> — is
-      <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">
-        intended for short quotations that don't require paragraph breaks.
-      </q>
-    </p>
  </body>
  </html>
