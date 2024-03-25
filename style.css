@@ -24,5 +24,12 @@ h1{
 p,
 label{
     font-size: 14pt;
-    color:#fafcfd
+    color:#fafcfd;
+}
+
+input{
+  color:rgb(5, 5, 170);
+  font-size: 12pt;
+  background-color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
