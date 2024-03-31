@@ -15,21 +15,15 @@ body {
     /* border: 5px solid black; */
   }
 
-h1{
+h1, h2{
     margin: 0;
     padding: 20px 0;
     color: #fafcfd;
     /* text-shadow: 3px 3px 1px gainsboro; */
   }
-p,
-label{
-    font-size: 14pt;
-    color:#fafcfd;
-}
-
-input{
-  color:rgb(5, 5, 170);
-  font-size: 12pt;
-  background-color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+button {
+  margin: 0;
+  padding: 10px 5px;
+  color:blue ;
+  font-size: large;
 }
